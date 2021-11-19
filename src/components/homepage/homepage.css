@@ -1,0 +1,125 @@
+.home_Container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(164, 201, 216); */
+}
+.update_form {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+
+.todos-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.todos-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+form h1 {
+  text-align: center;
+}
+
+input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4a4a4a;
+  text-indent: 40px;
+}
+
+.btn-todos {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: #4947e7;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+}
+
+.table-title {
+  text-align: center;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left !important;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.btn-update-delete {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.7rem 2.5rem;
+  text-align: center;
+  background-color: #118a26;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 14px;
+}
+
+.btn-todos-cancel-delete {
+  background-color: red !important;
+}
